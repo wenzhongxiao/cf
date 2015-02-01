@@ -63,6 +63,7 @@
 			</div>
 		</div>
 	</div>
+	<div>vsersion 1.0</div>
 <img src="<?php echo __SITE__; ?>/attachment/cf-01.png" width="0" height="0" style="overflow:hidden;">
 <!-- date list template -->
 <script type="text/template" id="tpl-date">
@@ -72,18 +73,18 @@
 			<p><strong>周一至周五 / Monday To Tuesday </strong></p>
 			<hr>
 			<ul class="list-unstyled list-inline list-xs">
-			<% _.each(data.weekday,function(t){ %> 
+			<% _.each(data.weekday,function(t){ %>
 				<li><%=t%></li>
-			<% }); %>	
+			<% }); %>
 			</ul>
 		</div>
 		<div class="col-sm-6">
 			<p><strong>周六、周日及节假日 / Saturday, Sunday, Festivals</strong></p>
 			<hr>
 			<ul class="list-unstyled list-inline list-xs">
-			<% _.each(data.weekend,function(t){ %> 
+			<% _.each(data.weekend,function(t){ %>
 				<li><%=t%></li>
-			<% }); %>	
+			<% }); %>
 			</ul>
 		</div>
 	</div>
